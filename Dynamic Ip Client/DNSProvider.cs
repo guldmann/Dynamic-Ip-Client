@@ -8,8 +8,7 @@ namespace Dynamic_Ip_Client
 {
     class DNSProvider
     {
-        public string User { get; set; }
-        public string Pass { get; set; }
+      
         public  string Name { get; set; }
         public string Host { get; set; }
         public string Path { get; set; }
