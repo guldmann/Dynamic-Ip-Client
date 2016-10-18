@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Dynamic_Ip_Client
 {
-    class DNSProvider
+    class Router
     {
-        public  string Name { get; set; }
-        public string Host { get; set; }
         public string Path { get; set; }
-    }
+        public string Regex { get; set; }
+        public string Name { get; set; }
+        public bool Public { get; set; }
+
     
+    }
 }
