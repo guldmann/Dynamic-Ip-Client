@@ -11,8 +11,6 @@ namespace Dynamic_Ip_Client
         public string Path { get; set; }
         public string Regex { get; set; }
         public string Name { get; set; }
-        public bool Public { get; set; }
-
-    
+        public bool Custom { get; set; }
     }
 }

@@ -24,5 +24,10 @@ namespace Dynamic_Ip_Client
             // NOTE test logging  
             logger.Debug("Are we logging this ");
         }
+
+        private void timerUpdate_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
