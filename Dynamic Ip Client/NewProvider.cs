@@ -16,5 +16,24 @@ namespace Dynamic_Ip_Client
         {
             InitializeComponent();
         }
+
+        private void buttonTest_Click(object sender, EventArgs e)
+        {
+            // add connection test here 
+        }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            //Generate dialog result here and close form  
+            //give nack object to main form 
+
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+
+         }
+
+       
     }
 }

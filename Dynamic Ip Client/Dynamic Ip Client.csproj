@@ -62,6 +62,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Groupe.cs" />
+    <Compile Include="Helper.cs" />
     <Compile Include="MyRouter.cs" />
     <Compile Include="NewProvider.cs">
       <SubType>Form</SubType>
