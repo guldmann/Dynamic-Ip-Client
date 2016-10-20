@@ -19,7 +19,10 @@ namespace Dynamic_Ip_Client
 
         private void buttonTest_Click(object sender, EventArgs e)
         {
-            // add connection test here 
+            var connectionString = textBoxUrl.Text.ProviderConvert(textBoxDomain.Text, textBoxIP.Text);
+            ProviderConnect PC = new ProviderConnect();
+            var result = PC.Open(connectionString, textBoxUser.Text, textBoxPassword.Text);
+            richTextBoxResult.AppendText("Provider responded: " + result + Environment.NewLine); 
         }
 
         private void buttonSave_Click(object sender, EventArgs e)
@@ -31,8 +34,8 @@ namespace Dynamic_Ip_Client
 
         private void buttonCancel_Click(object sender, EventArgs e)
         {
-
-         }
+            this.Close(); 
+        }
 
        
     }

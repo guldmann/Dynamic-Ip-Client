@@ -33,7 +33,9 @@
             this.tabPageInfo = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.timerUpdate = new System.Windows.Forms.Timer(this.components);
+            this.buttonAddProvider = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -59,6 +61,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.buttonAddProvider);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -72,6 +75,16 @@
             this.timerUpdate.Interval = 300000;
             this.timerUpdate.Tick += new System.EventHandler(this.timerUpdate_Tick);
             // 
+            // buttonAddProvider
+            // 
+            this.buttonAddProvider.Location = new System.Drawing.Point(152, 352);
+            this.buttonAddProvider.Name = "buttonAddProvider";
+            this.buttonAddProvider.Size = new System.Drawing.Size(122, 31);
+            this.buttonAddProvider.TabIndex = 0;
+            this.buttonAddProvider.Text = "Add provider";
+            this.buttonAddProvider.UseVisualStyleBackColor = true;
+            this.buttonAddProvider.Click += new System.EventHandler(this.buttonAddProvider_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -83,6 +96,7 @@
             this.Text = "Dynamic ip client";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -93,6 +107,7 @@
         private System.Windows.Forms.TabPage tabPageInfo;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Timer timerUpdate;
+        private System.Windows.Forms.Button buttonAddProvider;
     }
 }
 

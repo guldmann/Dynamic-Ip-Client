@@ -29,5 +29,13 @@ namespace Dynamic_Ip_Client
         {
 
         }
+
+        private void buttonAddProvider_Click(object sender, EventArgs e)
+        {
+            // NOTE HERE FOR test NewProvider 
+            NewProvider NP = new NewProvider();
+            NP.Show(); 
+
+        }
     }
 }

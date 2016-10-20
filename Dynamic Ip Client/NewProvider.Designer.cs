@@ -38,15 +38,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxDomain = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxUser = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxIP = new System.Windows.Forms.TextBox();
             this.buttonTest = new System.Windows.Forms.Button();
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxResult = new System.Windows.Forms.RichTextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -102,14 +102,14 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.richTextBox1);
+            this.groupBox1.Controls.Add(this.richTextBoxResult);
             this.groupBox1.Controls.Add(this.buttonTest);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.textBoxIP);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.textBoxUser);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBoxPassword);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.textBoxDomain);
             this.groupBox1.Location = new System.Drawing.Point(15, 105);
@@ -144,12 +144,12 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Password:";
             // 
-            // textBox2
+            // textBoxPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(85, 77);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(266, 22);
-            this.textBox2.TabIndex = 8;
+            this.textBoxPassword.Location = new System.Drawing.Point(85, 77);
+            this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.Size = new System.Drawing.Size(266, 22);
+            this.textBoxPassword.TabIndex = 8;
             // 
             // label6
             // 
@@ -176,12 +176,12 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "IP:";
             // 
-            // textBox1
+            // textBoxIP
             // 
-            this.textBox1.Location = new System.Drawing.Point(85, 105);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(266, 22);
-            this.textBox1.TabIndex = 12;
+            this.textBoxIP.Location = new System.Drawing.Point(85, 105);
+            this.textBoxIP.Name = "textBoxIP";
+            this.textBoxIP.Size = new System.Drawing.Size(266, 22);
+            this.textBoxIP.TabIndex = 12;
             // 
             // buttonTest
             // 
@@ -214,13 +214,13 @@
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
-            // richTextBox1
+            // richTextBoxResult
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(85, 134);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(266, 117);
-            this.richTextBox1.TabIndex = 14;
-            this.richTextBox1.Text = "";
+            this.richTextBoxResult.Location = new System.Drawing.Point(85, 134);
+            this.richTextBoxResult.Name = "richTextBoxResult";
+            this.richTextBoxResult.Size = new System.Drawing.Size(266, 117);
+            this.richTextBoxResult.TabIndex = 14;
+            this.richTextBoxResult.Text = "";
             // 
             // label8
             // 
@@ -264,15 +264,15 @@
         private System.Windows.Forms.TextBox textBoxUrl;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxIP;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxUser;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxDomain;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBoxResult;
         private System.Windows.Forms.Button buttonTest;
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Button buttonCancel;
